@@ -2,7 +2,7 @@
 
 function writeCards(names, event){
  for(let i=0;i<names.length;i++)
-   return "Thank you, " + names + " for the wonderful " + event+ " gift !";
+   return "Thank you, " + names[0] + " for the wonderful " + event+ " gift !";
   
 }
 writeCards( [ 'Lisa', 'Kaitlin', 'Jan' ], "surprise");
