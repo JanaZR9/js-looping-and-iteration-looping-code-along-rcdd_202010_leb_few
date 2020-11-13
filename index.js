@@ -1,13 +1,13 @@
 // Code your solutions in this file
 
 function writeCards(names, event){
-  let result = " ";
+  let result = [ ];
   let i =0;
  for(i=0;i<names.length;i++){
   
    result+= "Thank you, " + names[i] + " for the wonderful " + event+ " gift !"+ "\n" ;
    }
-   return result[i];
+   return result;
   
 }
 writeCards( [ 'Lisa', 'Kaitlin', 'Jan' ], "surprise");
