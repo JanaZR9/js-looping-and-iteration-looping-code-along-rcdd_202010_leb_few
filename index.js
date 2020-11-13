@@ -4,7 +4,7 @@ function writeCards(names, event){
   let result = " ";
  for(let i=0;i<names.length;i++){
   
-   result+= "Thank you, " + names[i] + " for the wonderful " + event+ " gift !";}
+   result+= "Thank you, " + names[i] + " for the wonderful " + event+ " gift !"+"\n";}
    return result;
   
 }
