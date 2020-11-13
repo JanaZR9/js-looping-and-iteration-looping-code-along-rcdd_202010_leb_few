@@ -6,7 +6,7 @@ function writeCards(names, event){
   
    result+= "Thank you, " + names[i] + " for the wonderful " + event+ " gift !"+ "\n" ;
    }
-   return result;
+   return result[i];
   
 }
 writeCards( [ 'Lisa', 'Kaitlin', 'Jan' ], "surprise");
